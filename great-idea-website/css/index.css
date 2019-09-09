@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,181 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 50%;
+	margin: auto;
+}
+
+h1 {
+	font-size: 80px;
+	line-height: normal;
+}
+
+h2 {
+	font-size: 16px;
+	font-family: 'Fredoka One', cursive;
+}
+
+hr {
+	border-top: 1px solid black;
+	margin-top: 75px;
+	margin-bottom: 30px;
+	width: 98%;
+}
+
+hr.bothr {
+	margin-top:0px;
+}
+
+.header {
+	display: inline-block;
+	padding-top: 30px;
+	margin-bottom: 50px;
+	width: 100%;
+	background-color: rgba(227, 227, 227, 0.5);
+	position: sticky;
+	top: 0;
+	z-index: 100;
+	border-bottom: 2px solid #e3e3e3;
+}
+
+.header a:first-child {
+	margin-left: 0px;
+}
+
+.nav_head {
+	display: inline-block;
+	width: 70%;
+}
+
+.nav_head a {
+	display: inline-block;
+	color: darkgray;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 20px;
+	min-width: 100px;
+	width: 10%;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.nav_head a:hover {
+	background: darkgray;
+	color: white;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.nav_head #firstnav {
+	margin-left: none;
+}
+
+.titles {
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
+.middle {
+	display: inline-block;
+	margin: 1%;
+	width: 47%;
+}
+
+.started {
+		width: 159px;
+		height: auto;
+		margin: auto;
+		padding-top: -100px;
+}
+
+.started a {
+	text-decoration: none;
+	height: 20px;
+	background: white;
+	color: black;
+	border: 1px solid black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 40px;
+	padding-right: 40px;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.started a:hover {
+	background: black;
+	color: white;
+	border: 1px solid white;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.title {
+	height: 300px;
+	margin-bottom: 10px;
+}
+
+.info {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.featbout {
+	display: inline-block;
+	margin: 1%;
+	width: 47%;
+}
+
+.serv-prod-vis {
+	display: inline-block;
+	margin: 1%;
+	width: 31%;
+}
+
+#copyright {
+	font-size: 14px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+#headimg {
+	background-image: url("../img/header-img.png");
+	height: 379px;
+	width: 379px;
+}
+
+#middle-img {
+	margin: auto;
+	width: 876px;
+	height: 182px;
+	margin-bottom: 15px;
+	background-image: url('../img/mid-page-accent.jpg');
+}
+
+#logo {
+	background-image: url("../img/logo.png");
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 183px;
+	position: relative;
+	right: -10px;
+	top: 25px;
+	display: inline-block;
+	margin-top: 32px;
+}
